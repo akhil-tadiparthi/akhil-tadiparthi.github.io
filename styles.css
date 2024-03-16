@@ -3,10 +3,13 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: white; /* Set the background color of the body to white */
 }
 
-header, section, footer {
+header {
     padding: 20px;
+    background-color: #333; /* Set the background color of the header to dark gray */
+    color: white; /* Set the text color of the header to white */
 }
 
 nav ul {
