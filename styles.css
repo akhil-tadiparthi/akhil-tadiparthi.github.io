@@ -1,15 +1,22 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: white; /* Set the background color of the body to white */
+    background-color: #f6f7f9; /* Soft gray background */
+    color: #333; /* Dark text color */
 }
 
 header {
     padding: 20px;
-    background-color: #333; /* Set the background color of the header to dark gray */
-    color: white; /* Set the text color of the header to white */
+    background-color: #40555e; /* Dark blue-gray for header */
+    color: #fff; /* White text color */
+    text-align: center; /* Center align text within the header */
+}
+
+nav {
+    margin: 0 auto; /* Center the navigation bar */
+    max-width: 600px; /* Set a maximum width for the navigation bar */
 }
 
 nav ul {
@@ -19,12 +26,25 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 a {
     text-decoration: none;
-    color: #000;
+    color: #fff; /* White link color */
+    transition: color 0.3s ease; /* Smooth transition for link color */
 }
 
-/* Add more styles as needed */
+a:hover {
+    color: #b0c4d9; /* Light blue on hover */ 
+}
+
+footer {
+    padding: 10px;
+    background-color: #40555e; /* Dark blue-gray for footer */
+    color: #fff; /* White text color */
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
