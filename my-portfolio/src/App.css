@@ -1,0 +1,29 @@
+/* src/App.css */
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+header {
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
